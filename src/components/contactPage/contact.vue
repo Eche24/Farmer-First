@@ -17,21 +17,13 @@
             <p class="google-font mt-3" style="font-size:110%">lorem at lorem to lorem oppos slloeo </p>
             <p class="google-font mt-3" style="font-size:110%">lorem at lorem to lorem oppos slloeo </p>
           </v-card-text>
-             <v-divider></v-divider>
-            <v-card-text>
-          <p class="google-font mb-0" style="font-size:130%">Social Media:</p>
-         <p class="google-font mt-3" style="font-size:110%"></p>
-            </v-card-text>
-          <v-card-actions>
-          <v-btn
-          v-for="icon in icons"
-          :key="icon"
-          class="mx-4 white--text"
-          icon
-        >
-          <v-icon size="24px">{{ icon }}</v-icon>
-        </v-btn>
-             </v-card-actions>
+             <!-- <v-divider></v-divider>
+            <v-card-text class="text-left">
+         
+             <SocialLink />
+        
+            </v-card-text> -->
+         
           </v-card>
         </v-flex>
         <!-- <v-flex xs10 sm6 md6 lg2 class="">
@@ -49,19 +41,14 @@
     </v-container>
 </template>
 <script>
+ import SocialLink from '~/components/socialLink.vue'
 export default {
     components: {
+      SocialLink
     },
     data () {
         return {
       
-     icons: [
-        'fab fa-facebook',
-        'fab fa-twitter',
-        'fab fa-google-plus',
-        'fab fa-linkedin',
-        'fab fa-instagram',
-      ],
         }
     }
 }

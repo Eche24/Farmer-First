@@ -3,19 +3,19 @@
     "socialLinks":[
         {
             "name" : "Facebook",
-            "link" : "https://www.facebook.com/GDGMakurdi/",
-            "icon" : "fab fa-facebook "
+            "link" : "",
+            "icon" : "fa fa-facebook "
         },
         
         {
             "name" : "Twitter",
-            "link" : "https://twitter.com/gdgmakurdi",
-            "icon" : "fab fa-twitter"
+            "link" : "",
+            "icon" : "mdi-twitter"
         },
         {
-            "name" : "Meetup",
-            "link" : "https://www.meetup.com/GDG-Makurdi/",
-            "icon" : "fab fa-meetup"
+            "name" : "linkedin",
+            "link" : "",
+            "icon" : "fa fa-linkedin"
         }
     ]
 }

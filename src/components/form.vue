@@ -4,14 +4,14 @@
             <!-- <v-flex xs12 sm4 md2 lg2 class="pa-4">
                
             </v-flex> -->
-           <v-flex xs12 sm8 md10 lg10 class="pa-2 py-4 px-3" >
-               <p class="google-font mb-0" style="font-size:150%">Send Us a Message</p>
-               <p class="google-font mt-1" style="font-size:120%">
+           <v-flex xs12 sm8 md10 lg10 class="pa-2  px-3" >
+               <p class="google-font mb-0" style="font-size:130%">Send Us a Message</p>
+               <p class="google-font mt-1" style="font-size:110%; font-family: 'Quicksand', sans-serif;">
               Voluptates ipsum quia explicabo eligendi quae numquam nesciunt eaque nihil saepe vero.
                </p>
                <v-card width="600" flat class="mx-auto">
                    <v-card-text>
-                 <v-form class="px-3">
+                 <v-form class="px-3" action="https://formspree.io/mzbdzbra" method="POST">
                      <v-text-field label="Username" v-model="name" prepend-icon="mdi-account-circle">
                            
                      </v-text-field>

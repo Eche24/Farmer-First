@@ -4,7 +4,7 @@
     <v-flex xs12 md6 lg6 class="pa-2">
      <v-card flat style="background-color:#f6f6f7" >
            <v-card-title>
-        <p class="google-font mb-0 grey--text" style="font-size:150%;">Who we are</p>
+        <p class="text-uppercase mb-0" style="font-size:130%; font-family: 'Roboto', sans-serif;">Who we are</p>
            </v-card-title>
            <v-col cols="auto">
           <v-img
@@ -14,7 +14,7 @@
           ></v-img>
         </v-col>
         <v-card-text>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    <p style="font-family: 'Roboto', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
         Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, 
         aperiam non officia eos quod asperiores</p>
     <p>
@@ -36,7 +36,7 @@
        <v-flex xs12 md6 lg6 class="pa-2">
          <v-card flat style="background-color:#f6f6f7" >
            <v-card-title>
-        <p class="google-font mb-0 grey--text" style="font-size:150%;">What we do</p>
+        <p class="text-uppercase" style="font-size:130%;">What we do</p>
            </v-card-title>
            <v-col cols="auto">
           <v-img
@@ -46,22 +46,22 @@
           ></v-img>
         </v-col>
         <v-card-text>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    <p style="font-family: 'Quicksand', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
         Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, 
         aperiam non officia eos quod asperiores</p>
-    <p>
+    <p style="font-family: 'Quicksand', sans-serif;">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
       Facere suscipit velit officia quae. Fuga odit consectetur tenetur
       facere accusamus iste magnam unde sapiente eos repudiandae
       nisi consequatur omnis, praesentium dolorem!
     </p>
-    <p>
+    <p style="font-family: 'Quicksand', sans-serif;">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
       Facere suscipit velit officia quae. Fuga odit consectetur tenetur
       facere accusamus iste magnam unde sapiente eos repudiandae
       nisi consequatur omnis, praesentium dolorem!
         <g-link class="nav__link" to="/about/">Read more</g-link>
-    </p>
+    </p >
         </v-card-text>
          </v-card>  
       </v-flex>

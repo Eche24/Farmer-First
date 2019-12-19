@@ -7,9 +7,8 @@
           <v-responsive class="pt-4">
             <v-avatar size="150" class="grey lighten-2">
               <v-img 
-             
-              :src="require('~/assets/img/team/avatar.png')"
-              :lazy-src="require('~/assets/img/team/avatar.png')"
+              :src="person.img"
+              :lazy-src="person.img"
               >
                 <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                   <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
@@ -48,7 +47,7 @@ export default {
                 twitterUrl:"",
                 facebookUrl:"",
                 linkedinUrl:"",
-                img: "~/assets/img/team/avatar.png"
+                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576710193/avatar_ipxdko.png"
             },
                {
                 name: "lorme omkemn llo",
@@ -57,7 +56,7 @@ export default {
                 twitterUrl:"",
                 facebookUrl:"",
                 linkedinUrl:"",
-                img: "~/assets/img/team/avatar.png"
+                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576710193/avatar_ipxdko.png"
             },
                {
                 name: "lorem ben ominn",
@@ -66,7 +65,7 @@ export default {
                 twitterUrl:"",
                 facebookUrl:"",
                 linkedinUrl:"",
-                img: "~/assets/img/team/avatar.png"
+                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576710193/avatar_ipxdko.png"
             },
 
       ],

@@ -1,5 +1,5 @@
 {
-  "name": "farmer first",
+  "name": "farmerfirst",
   "private": true,
   "scripts": {
     "build": "gridsome build",

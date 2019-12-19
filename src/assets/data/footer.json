@@ -1,64 +1,64 @@
 {
     "AboutSession":[
         {
-            "LinkName":"behind",
+            "LinkName":"Behind modern market",
             "Link":"/"
         },
         {
-            "LinkName":"",
+            "LinkName":" Ankpa qtrs",
             "Link":""
         },
         {
-            "LinkName":"",
+            "LinkName":" 230707345959",
             "Link":""
         },
         {
-            "LinkName":"",
+            "LinkName":"spwesn@gmail.com",
             "Link":""
         }
     ],
     "ChapterResourcesSession":[
         {
-            "LinkName" : "",
-            "Link" : ""
-        },
-        {
-            "LinkName" : "",
+            "LinkName" : "Product",
             "Link" : ""
         },
         {
             "LinkName" : "Gallery",
             "Link" : ""
+        },
+        {
+            "LinkName" : "Achievement",
+            "Link" : ""
         }
     ],
     "DevConsole":[
         {
-            "LinkName" : "C - ",
+            "LinkName" : "C - Creativity",
             "Link" : ""
         },
         {
-            "LinkName" : "E - ",
+            "LinkName" : "E - Excellence ",
             "Link" : ""
         },
         {
-            "LinkName" : "F - ",
+            "LinkName" : "F - Fun ",
             "Link" : ""
         },
         {
-            "LinkName" : "I - ",
+            "LinkName" : "I - Innovativeness",
             "Link" : ""
         },
         {
-            "LinkName" : "R - ",
+            "LinkName" : "R - Respect",
             "Link" : ""
         },
         {
-            "LinkName" : "S - ",
+            "LinkName" : "S - Sustainability",
             "Link" : ""
         }
         ,
         {
-            "LinkName" : "T - ",
+            "LinkName" : "T - Trust",
             "Link" : ""
         }
     ]

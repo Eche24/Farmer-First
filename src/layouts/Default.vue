@@ -13,12 +13,20 @@
         />
         <!-- </v-btn> -->
         <v-toolbar-title
-          class="ml-0 pl-1 mr-1"
+          class="ml-2 pl-2"
           :to="$url('/')"
           title="Home"
         >
-          {{ $static.metadata.siteName }}
-          <!-- <span style="font-size:90%"> building community through small farmer</span> -->
+          <!-- <v-img 
+            :src="require('@/assets/img/logo/logo4.png')"
+              :lazy-src="require('@/assets/img/logo/logo4.png')"
+              width="10vh"
+              height="50px"
+              >
+               
+              </v-img>
+          -->
+          <g-image src="@/assets/img/logo/logo4.png" width="100vh" alt='farmer first logo'/>
         </v-toolbar-title>
         <v-spacer />
         <v-toolbar-items
@@ -79,8 +87,8 @@
       >
         <v-list-item>
           <v-list-item-content>
-            <v-list-item-title class="title blue--text">
-              {{ $static.metadata.siteName }}
+            <v-list-item-title class="title blue--text pl-5">
+             <g-image src="@/assets/img/logo/logo4.png" width="100vh alt='farmer first logo' "/>
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
@@ -100,6 +108,7 @@
             flat
             class="ml-0"
           >
+          <v-icon class="mr-1">home</v-icon>
             Home
           </v-btn>
             
@@ -113,6 +122,7 @@
             flat
             class="ml-0"
           >
+           <v-icon class="mr-1">mdi-view-dashboard</v-icon>
             About
           </v-btn>
             
@@ -125,13 +135,14 @@
             flat
             class="ml-0"
           >
+             <v-icon class="mr-1">info</v-icon>
             Services
           </v-btn>
             
             </v-list-item-title>
-              <v-list-item-title
-            
+              <v-list-item-title 
             >
+         
              <v-btn
             text
             :to="$url('/contact')"
@@ -139,6 +150,7 @@
             flat
             class="ml-0"
           >
+          <v-icon class="mr-1">mdi-dialpad</v-icon>
             Contact
           </v-btn>
             
