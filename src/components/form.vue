@@ -11,25 +11,23 @@
                </p>
                <v-card width="600" flat class="mx-auto">
                    <v-card-text>
-                 <v-form class="px-3" action="https://formspree.io/mzbdzbra" method="POST">
-                     <v-text-field label="Username" v-model="name" prepend-icon="mdi-account-circle">
+                 <v-form class="px-3" ref="form">
+                     <v-text-field label="Username" v-model="name" prepend-icon="mdi-account-circle" :rules="inputRules" placeholder="enter your full name">
                            
                      </v-text-field>
-                        <v-text-field label="email" v-model="email" prepend-icon="folder" >
+                        <v-text-field label="email" v-model="email" prepend-icon="folder" :rules="inputRules" placeholder="enter your email address">
                            
                      </v-text-field>
-                     <v-textarea label="Message" v-model="message"  prepend-icon="edit">
+                     
+                     <v-textarea label="Message" v-model="message"  prepend-icon="edit" :rules="inputRules" placeholder="enter a message">
 
                      </v-textarea>
-                    <v-btn text class="success mx-0 mt-3" @click="submit">
+                    <v-btn text class="success mx-0 mt-3" @click="submit" >
                          <v-icon class="pl-2" >send</v-icon>
                             Send us a message
                     </v-btn>
                  </v-form>
-                   </v-card-text>
-                   
-
-                   
+                   </v-card-text>    
                </v-card>
             </v-flex> 
         </v-layout>
@@ -38,17 +36,33 @@
 </template>
 
 <script>
+import db from '@/fb'
 export default {
     data () {
         return {
-            title:"",
+            name:"",
              email:"",
               message:"",
+              inputRules: [
+                 v => v.length >= 3 || 'minimum lenght is 3 characters' 
+              ]
         }
     },
     methods: {
         submit() {
-            console.log(this.title, this.email, this.message)
+           if(this.$refs.form.validate()) {
+             const info = {
+                 name: this.name,
+                 email: this.email,
+                 message: this.message
+             }
+              
+               db.collection('info').add(info).then(() => {
+                  alert('Message has been sent')
+               })
+              
+           }
+           
         }
     }
 }

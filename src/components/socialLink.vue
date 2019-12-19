@@ -5,7 +5,7 @@
           <p class="google-font" style="font-size:130%; color:#868e96;" > Follow Us:
             <span v-for="(item,i) in ChapterDetails.socialLinks" :key="i">
               <v-tooltip top>
-                  <v-btn flat icon :href="item.link" target="_blank" slot="activator">
+                  <v-btn flat icon :href="item.link" target="_blank" slot="activator" class="btn">
                     <v-icon>{{item.icon}}</v-icon>
                   </v-btn>
                   <span>{{item.name}}</span>
@@ -27,3 +27,8 @@
     },
   }
 </script>
+<style>
+.btn:hover {
+  background-color:green;
+}
+</style>

@@ -5,6 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'farmer Frist',
+  siteName: 'Farmer Frist',
+  siteUrl: '',
   plugins: [],
+  icon: './src/favicon.png'
 }
