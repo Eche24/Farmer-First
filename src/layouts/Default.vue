@@ -26,7 +26,7 @@
                
               </v-img>
           -->
-          <g-image src="@/assets/img/logo/logo4.png" width="100vh" alt='farmer first logo'/>
+          <g-image src="@/assets/img/logo/logo.png" width="100vh" alt='farmer first logo'/>
         </v-toolbar-title>
         <v-spacer />
         <v-toolbar-items
@@ -88,7 +88,7 @@
         <v-list-item>
           <v-list-item-content>
             <v-list-item-title class="title blue--text pl-5">
-             <g-image src="@/assets/img/logo/logo4.png" width="100vh alt='farmer first logo' "/>
+             <g-image src="@/assets/img/logo/logo.png" width="100vh alt='farmer first logo' "/>
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>

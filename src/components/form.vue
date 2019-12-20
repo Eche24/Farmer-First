@@ -10,23 +10,37 @@
               Voluptates ipsum quia explicabo eligendi quae numquam nesciunt eaque nihil saepe vero.
                </p>
                <v-card width="600" flat class="mx-auto">
+                   <v-alert
+                   type="success"
+                    class="alert"  
+                     v-model="alert"
+                    >
+                  your message has been sent
+                   </v-alert>
                    <v-card-text>
                  <v-form class="px-3" ref="form">
-                     <v-text-field label="Username" v-model="name" prepend-icon="mdi-account-circle" :rules="inputRules" placeholder="enter your full name">
+                     <v-text-field label="Name" v-model="name" prepend-icon="mdi-account-circle" :rules="inputRules"  required>
                            
                      </v-text-field>
-                        <v-text-field label="email" v-model="email" prepend-icon="folder" :rules="inputRules" placeholder="enter your email address">
+                        <v-text-field label="E-mail" v-model="email" prepend-icon="folder" :rules="emailRules">
                            
                      </v-text-field>
                      
-                     <v-textarea label="Message" v-model="message"  prepend-icon="edit" :rules="inputRules" placeholder="enter a message">
+                     <v-textarea label="Message" v-model="message"  prepend-icon="edit" :rules="inputRules">
 
                      </v-textarea>
-                    <v-btn text class="success mx-0 mt-3" @click="submit" >
-                         <v-icon class="pl-2" >send</v-icon>
+                    <v-btn 
+                    text class="success mx-0 mt-3" 
+                    @click="submit"
+                    >
+                         <v-icon class="pl-2" 
+                        
+                         >send</v-icon>
                             Send us a message
+          
                     </v-btn>
-                 </v-form>
+                  
+                 </v-form> 
                    </v-card-text>    
                </v-card>
             </v-flex> 
@@ -40,29 +54,39 @@ import db from '@/fb'
 export default {
     data () {
         return {
-            name:"",
-             email:"",
+              alert: false,
+              name:"",
               message:"",
               inputRules: [
-                 v => v.length >= 3 || 'minimum lenght is 3 characters' 
-              ]
+                 v => (v && v.length >= 3)   || 'minimum length is 3 characters' 
+              ],
+              email:"",
+             emailRules: [
+        v => !!v || 'E-mail is required',
+        v => /.+@.+\..+/.test(v) || 'E-mail must be valid',
+      ],
         }
     },
     methods: {
         submit() {
            if(this.$refs.form.validate()) {
-             const info = {
+                 this.alert = true;
+                 const info = {
                  name: this.name,
                  email: this.email,
                  message: this.message
              }
               
                db.collection('info').add(info).then(() => {
-                  alert('Message has been sent')
+                   setTimeout(() => {
+      this.alert = false
+    }, 2000);
+                      
+                      this.$refs.form.reset();  
                })
               
            }
-           
+  
         }
     }
 }

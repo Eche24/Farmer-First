@@ -67,7 +67,7 @@
             class="ml-0"
             color="white"
           >
-           copyright {{ new Date().getFullYear() }} - <span> <g-image src="@/assets/img/logo/logo4.png" width="80vh" alt='farmer first logo' class="pa-0 mx-0"/></span>
+           copyright {{ new Date().getFullYear() }} - <span> <g-image src="@/assets/img/logo/logo.png" width="80vh" alt='farmer first logo' class="pa-0 mx-0"/></span>
           </v-btn>
          
            

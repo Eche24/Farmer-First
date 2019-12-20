@@ -20,15 +20,15 @@
               </v-img>
             <!-- </v-avatar> -->
           <!-- </v-responsive> -->
-          <!-- <v-expand-transition>
+          <v-expand-transition>
           <div
             v-if="hover"
-            class="d-flex transition-fast-in-slow-out green darken-2 v-card--reveal display-1 white--text"
+            class="d-flex transition-fast-in-fast-out red darken-2 v-card--reveal display-3 white--text"
             style="height: 100%;"
           >
           <p> closed </p> 
           </div>
-        </v-expand-transition> -->
+        </v-expand-transition>
           <v-card-text>
             <div class="subheading teal--text text-capitalize title" style="font-family: 'Roboto', sans-serif;">{{person.name}}</div>
              <div class="blue-grey--text subtitle-1" >{{person.role}}</div>

@@ -12,7 +12,7 @@
         <v-flex xs12 md10 class="">
             <p class="text-uppercase" style="font-size:190%; text-align:center; font-family: 'Roboto', sans-serif; font-size:40px;"> Farmer first</p>
                <p class="text-capitalize" style="font-size:140%; text-align:center; color: green; font-family: 'Quicksand', sans-serif;">
-                  buliding communities through smallfolder farmer. 
+                  building communities through smallfolder farmer. 
                </p>
           <About />
         </v-flex>

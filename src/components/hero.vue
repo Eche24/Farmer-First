@@ -28,7 +28,7 @@
             src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576648383/3_htg9es.jpg',
           },
           {
-            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576648382/2_f4yjlz.jpg',
+            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576847799/DSCN9914-2_rmuofu.jpg',
           },
           {
             src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576648382/4_d5xw98.jpg',
