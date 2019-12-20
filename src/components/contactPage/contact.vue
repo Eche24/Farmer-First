@@ -4,18 +4,18 @@
         <v-flex xs12 md4 class="mb-0"> 
           <v-card flat> 
             <v-card-title>
-          <p class="" style="font-size:200%;color:#616161">Contact farmer first</p>
+          <p class="" style="font-size:150%;color:#616161">Contact farmer first</p>
             </v-card-title>
             <v-card-text>
              <p class="text--blue" style="font-size:150%">How To Reach Us:</p>
-             <p class="font-weight-bold" style="font-size:110%">Phone : 23407035312997</p>
-             <p class="font-weight-bold" style="font-size:110%">Email : Spwesn@gmail.com</p>
+             <!-- <p class="font-weight-bold" style="font-size:110%">Phone : 23407035312997</p>
+             <p class="font-weight-bold" style="font-size:110%">Email : Spwesn@gmail.com</p> -->
             </v-card-text>
           <v-divider></v-divider>
           <v-card-text>
            <p class="google-font mt-3" style="font-size:130%">Where to Find us: </p>
-            <p class="google-font mt-3" style="font-size:110%">lorem at lorem to lorem oppos slloeo </p>
-            <p class="google-font mt-3" style="font-size:110%">lorem at lorem to lorem oppos slloeo </p>
+            <p class="google-font mt-3" style="font-size:110%">Suit 6 Ashby House </p>
+            <p class="google-font mt-3" style="font-size:110%">Wurukum,Makurdi, Benue State</p>
           </v-card-text>
              <!-- <v-divider></v-divider>
             <v-card-text class="text-left">

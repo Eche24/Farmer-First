@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <h1 class="subheading blue--text">Team</h1>
+    <p class="text-uppercase text-center mb-2 mt-2" style="font-size:170%; color:#616161;">Meet our team</p>  
     <v-layout row wrap fill-height>
       <v-flex xs12 sm6 md6 lg4 v-for="person in speakers2019" :key="person.id">
         <v-card class="text-xs-center ma-3 mx-auto" max-width="344" height=370 flat >
@@ -17,18 +17,19 @@
             </v-avatar>
           </v-responsive>
           <v-card-text>
-            <div class="subheading google-font">{{person.name}}</div>
+            <div class="subheading ">{{person.name}}</div>
              <div class="blue-grey--text text-xs-center font-weight-light google-font" >{{person.role}}</div>
-            <div class="grey--text font-weight-medium google-font">{{person.desc}}</div>
+            <!-- <div class="grey--text font-weight-medium google-font">{{person.desc}}</div> -->
+            <v-btn class="mt-0 mx-0" icon :href="person.linkedinUrl" target="_blank">
+            <v-icon small center style="color:#0077b5">fa fa-linkedin</v-icon>
+          </v-btn>
           </v-card-text>
 
-          <v-btn class="mt-0 mx-0" icon :href="person.twitterUrl" target="_blank">
+          <!-- <v-btn class="mt-0 mx-0" icon :href="person.twitterUrl" target="_blank">
             <v-icon small center style="color:#1da1f2">fab fa-twitter</v-icon>
-          </v-btn>
+          </v-btn> -->
 
-          <v-btn class="mt-0 mx-0" icon :href="person.linkedinUrl" target="_blank">
-            <v-icon small center style="color:#0077b5">fab fa-linkedin-in</v-icon>
-          </v-btn>
+          
         </v-card>
       </v-flex>
     </v-layout>
@@ -41,32 +42,41 @@ export default {
     return {
       speakers2019: [
             {
-                name: "lolo moto todysy",
-                 role: "cfo",
-                desc: "Eli drives Apptopia’s strategic vision and manages investor relations. Before Apptopia Eli was involved in several startups, including: GPush,",
+                name: "Iortyom Terver Derek",
+                 role: "Co-Founder/Chief Financial Officer ",
+                desc: "",
                 twitterUrl:"",
                 facebookUrl:"",
-                linkedinUrl:"",
+                linkedinUrl:"https://www.linkedin.com/in/iortyomterverderek/",
                 img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576710193/avatar_ipxdko.png"
             },
                {
-                name: "lorme omkemn llo",
-                 role: "cfo",
-                desc: "Eli drives Apptopia’s strategic vision and manages investor relations. Before Apptopia Eli",
+                name: "Tuleun Aondohemba Kelvin",
+                 role: "Co-Founder/Farm Lead",
+                desc: "",
                 twitterUrl:"",
                 facebookUrl:"",
-                linkedinUrl:"",
+                linkedinUrl:"https://www.linkedin.com/in/tuleun-aondohemba-kelvin-195b4b96/",
                 img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576710193/avatar_ipxdko.png"
             },
                {
-                name: "lorem ben ominn",
-                 role: "cfo",
-                desc: "Eli drives Apptopia’s strategic vision and manages investor relations. Before Apptopia Eli",
+                name: "Orjime Oliver Tsokar",
+                 role: "Co-Founder/Head of Data Intelligence",
+                desc: "",
                 twitterUrl:"",
                 facebookUrl:"",
-                linkedinUrl:"",
+                linkedinUrl:"https://www.linkedin.com/in/orjime-oliver-tsokar-2374a9136/",
                 img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576710193/avatar_ipxdko.png"
             },
+             {
+                name: "Dexter Aondofaseer Iorkohol",
+                 role: "Co-Founder/Head of Operations ",
+                desc: "",
+                twitterUrl:"",
+                facebookUrl:"",
+                linkedinUrl:"https://www.linkedin.com/in/dexter-faseer-52b784189/",
+                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576710193/avatar_ipxdko.png"
+            }
 
       ],
       tile: false,

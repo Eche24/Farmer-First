@@ -61,12 +61,12 @@
           </v-btn> -->
           <v-btn
             text
-            :to="$url('/services')"
+            :to="$url('/Farms')"
             style="text-transform: capitalize;"
             flat
             class="ml-0"
           >
-            Services
+            Farms
           </v-btn>
           <v-btn
             text

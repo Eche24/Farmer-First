@@ -3,7 +3,7 @@
     color="#343a40" 
   >
     <v-container fluid style="" >
-        <SocialLink />
+        <!-- <SocialLink /> -->
       <v-layout wrap justify-center row>
         <v-flex xs12 md12 lg10>
            <v-layout wrap align-start justify-start row class="my-2">

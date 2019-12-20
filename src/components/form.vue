@@ -5,10 +5,10 @@
                
             </v-flex> -->
            <v-flex xs12 sm8 md10 lg10 class="pa-2  px-3" >
-               <p class="google-font mb-0" style="font-size:130%">Send Us a Message</p>
-               <p class="google-font mt-1" style="font-size:110%; font-family: 'Quicksand', sans-serif;">
+               <p class="text-center mb-0 pb-2" style="font-size:130%">Send Us a Message</p>
+               <!-- <p class="google-font mt-1" style="font-size:110%; font-family: 'Quicksand', sans-serif;">
               Voluptates ipsum quia explicabo eligendi quae numquam nesciunt eaque nihil saepe vero.
-               </p>
+               </p> -->
                <v-card width="600" flat class="mx-auto">
                    <v-alert
                    type="success"

@@ -2,9 +2,10 @@
     <v-container class="pa-0 grey--text">
         <v-layout wrap align-center justify-center row fill-height class="my-3" >
     <v-flex xs12 md6 lg6 class="pa-2">
-       <v-card flat>
+         <p class="text-center black--text" style="font-size:150%">Our Farms</p>
+       <!-- <v-card flat>
            <v-card-title>
-                <p class="google-font" style="font-size:150%">How it works</p>
+               
                  
            </v-card-title>
            <v-card-text>
@@ -19,11 +20,11 @@
 
            </v-card-text>
 
-       </v-card>    
+       </v-card>     -->
     </v-flex>
         </v-layout>
       <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10 class=" pl-2">
+        <v-flex xs12 md12 class=" pl-2">
         <Product />
     </v-flex>
            </v-layout>
