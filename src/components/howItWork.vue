@@ -33,21 +33,47 @@
    </v-flex>
     </v-layout>
 
-     
-       <v-card class="mb-2" flat>
-          <v-divider/>
-            <p class="mb-0 text-center pt-3" style="font-size:140%;">How it work ? </p>
-             <p class="text-center mb-0   blue--text" style="font-size:120%; font-family: 'Quicksand', sans-serif;">Subscription Procedures: </p>  
+         <v-divider/>
+       <v-card 
+       class="mb-2 mx-auto" 
+       flat
+        max-width="400"
+         tile
+       >
+           <p class="subtitle-4 text-center pt-4" style="font-size:150%;">How it work? </p>  
+                 <p class="text-center mt-0 blue--text" style="font-size:; font-family: 'Quicksand', sans-serif;">Subscription Procedures:</p>
+      
         <v-card-text style="font-family: 'Quicksand', sans-serif; font-size:110%" class="text-center green--text">
-           <ol >
-            <b> <li>Account Creation</li></b>
-              <b><li>Choose a Farm</li></b>
-               <b><li>Received Updates/Historical data</li></b>
-                <b><li>Get Paid</li></b>
-           </ol>
+          <v-list rounded>
+      <v-list-item-group v-model="item" color="primary">
+        <v-list-item
+          v-for="(item, i) in items"
+          :key="i"
+        >
+          <v-list-item-icon>
+            <v-icon v-text="item.icon"></v-icon>
+          </v-list-item-icon>
+          <v-list-item-content>
+            <v-list-item-title v-text="item.text"></v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list-item-group>
+    </v-list>
         </v-card-text>
       </v-card>
     </v-container>
  </template>
- 
+ <script>
+  export default {
+    data: () => ({
+     
+      items: [
+        { text: 'Account Creation', icon: 'mdi-account' },
+        { text: 'Choose a Farm', icon: 'mdi-feature-search' },
+        { text: 'Received Updates/Historical data', icon: 'mdi-message' },
+        { text: 'Get Paid', icon: 'mdi-cash-multiple' }
+      ],
+    }),
+  }
+</script>
 
