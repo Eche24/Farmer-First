@@ -3,12 +3,13 @@
     <p class="text-uppercase text-center mb-2 mt-2" style="font-size:170%; color:#616161;">Meet our team</p>  
     <v-layout row wrap fill-height>
       <v-flex xs12 sm6 md6 lg4 v-for="person in speakers2019" :key="person.id">
-        <v-card class="text-xs-center ma-3 mx-auto" max-width="344" height=370 flat >
-          <v-responsive class="pt-4">
-            <v-avatar size="150" class="grey lighten-2">
+        <v-card class="text-xs-center mx-auto mb-3" max-width="344" flat>
+          <v-responsive class="pt-4 ml-5 ">
+            <v-avatar size="160" class="pa-2">
               <v-img 
               :src="person.img"
               :lazy-src="person.img"
+              
               >
                 <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                   <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
@@ -17,7 +18,7 @@
             </v-avatar>
           </v-responsive>
           <v-card-text>
-            <div class="subheading ">{{person.name}}</div>
+            <div class="subheading black--text ">{{person.name}}</div>
              <div class="blue-grey--text text-xs-center font-weight-light google-font" >{{person.role}}</div>
             <!-- <div class="grey--text font-weight-medium google-font">{{person.desc}}</div> -->
             <v-btn class="mt-0 mx-0" icon :href="person.linkedinUrl" target="_blank">
@@ -48,7 +49,7 @@ export default {
                 twitterUrl:"",
                 facebookUrl:"",
                 linkedinUrl:"https://www.linkedin.com/in/iortyomterverderek/",
-                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576710193/avatar_ipxdko.png"
+                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576980952/Iortyom_Terver_Derek_qden6m.jpg"
             },
                {
                 name: "Tuleun Aondohemba Kelvin",
@@ -57,7 +58,7 @@ export default {
                 twitterUrl:"",
                 facebookUrl:"",
                 linkedinUrl:"https://www.linkedin.com/in/tuleun-aondohemba-kelvin-195b4b96/",
-                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576710193/avatar_ipxdko.png"
+                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576980953/kelvin_onyat0.jpg"
             },
                {
                 name: "Orjime Oliver Tsokar",
@@ -66,7 +67,7 @@ export default {
                 twitterUrl:"",
                 facebookUrl:"",
                 linkedinUrl:"https://www.linkedin.com/in/orjime-oliver-tsokar-2374a9136/",
-                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576710193/avatar_ipxdko.png"
+                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576980953/og_huw4ke.jpg"
             },
              {
                 name: "Dexter Aondofaseer Iorkohol",
@@ -75,7 +76,7 @@ export default {
                 twitterUrl:"",
                 facebookUrl:"",
                 linkedinUrl:"https://www.linkedin.com/in/dexter-faseer-52b784189/",
-                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576710193/avatar_ipxdko.png"
+                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576980953/dt_sshdh0.jpg"
             }
 
       ],
