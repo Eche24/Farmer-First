@@ -52,7 +52,7 @@
           <v-img
             height="200"
             width="600"
-            src="https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576847154/D755_6_053_0004_600_kjzgvg.jpg"
+            src="https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577113062/unnamed-3_nraoho.jpg"
           ></v-img>
         </v-col>
         <v-card-text>
