@@ -80,7 +80,7 @@ export default {
                db.collection('info').add(info).then(() => {
                    setTimeout(() => {
       this.alert = false
-    }, 2000);
+    }, 1000);
                       
                       this.$refs.form.reset();  
                })
