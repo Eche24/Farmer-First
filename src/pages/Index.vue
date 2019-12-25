@@ -1,7 +1,7 @@
 <template>
   <Layout>
- <v-container fluid  class="my-1 mt-2">
-      <v-layout wrap align-center justify-center row fill-height class="mt-5">
+ <v-container fluid  class="">
+      <v-layout wrap align-center justify-center row fill-height class="mt-">
         <v-flex xs12 md12 >
           <HomeStartScreen />
         </v-flex>

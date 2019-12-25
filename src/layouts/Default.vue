@@ -25,19 +25,25 @@
           v-for="(item, i) in items"
           :key="i"
         >
-        
+         <v-btn-toggle
+         class="pt-4"
+          tile
+          color="yellow accent-3"
+          group
+         
+        >
           <v-btn
           
             text
             :to='item.link'
             style="text-transform: capitalize;"
             flat
-            class="ml-0"
-            color="primary"
+            class="link"
+            color=""
           >
             {{item.text}}
           </v-btn>
-          
+         </v-btn-toggle>
         </v-toolbar-items>
       </v-app-bar>
     
@@ -54,8 +60,8 @@
           </v-list-item-content>
         </v-list-item>
         <v-divider></v-divider>
-          <v-list dense app>
-      <v-list-item-group v-model="item" color="primary">
+          <v-list dense app >
+      <v-list-item-group v-model="item" color="yellow accent-3">
         <v-list-item
           v-for="(item, i) in items"
           :key="i"
@@ -65,7 +71,7 @@
             <v-icon v-text="item.icon"></v-icon>
           </v-list-item-icon>
           <v-list-item-content>
-            <v-list-item-title v-text="item.text"></v-list-item-title>
+            <v-list-item-title v-text="item.text"  class="link"></v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list-item-group>
@@ -108,3 +114,8 @@
     }),
   }
 </script>
+<style scoped>
+.link {
+  color: green;
+}
+</style>

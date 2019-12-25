@@ -2,7 +2,7 @@
   <v-container fluid class="mt-2 mb-0">
       <v-layout wrap align-center justify-center row fill-height class="my-0">
         <v-flex xs12 md10 class="mb-0">
-            <p class="text-uppercase text-center mb-0 mt-2" style="font-size:170%; color:#616161;">who we work</p>  
+            <p class="text-uppercase text-center mb-0 mt-2" style="font-size:170%; color:#616161;">how we work</p>  
 
         </v-flex>
       </v-layout>

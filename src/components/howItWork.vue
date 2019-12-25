@@ -1,5 +1,5 @@
  <<template>
-      <v-container fluid class="grey--text">
+      <v-container fluid class="grey--text" style="    background: linear-gradient(#ff5e7c, #c272d4);">
           <p class=" text-center mb-0 black--text " style="font-size:140%;">Our Model</p> <br>
          <p class="text-center mb-0 blue--text" style="font-size:120%; font-family: 'Quicksand', sans-serif;">Our investment model is grouped into two parts A and B</p>
       <v-layout wrap align-center justify-center row fill-height class="my-3" >

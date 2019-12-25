@@ -24,11 +24,15 @@
             <v-btn class="mt-0 mx-0" icon :href="person.linkedinUrl" target="_blank">
             <v-icon small center style="color:#0077b5">fa fa-linkedin</v-icon>
           </v-btn>
+            <v-btn class="mt-0 mx-0" icon :href="person.twitterUrl" target="_blank">
+            <v-icon small center style="color:#1da1f2">fa fa-twitter</v-icon>
+          </v-btn>
+           <v-btn class="mt-0 mx-0" icon :href="person.twitterUrl" target="_blank">
+            <v-icon small center style="color:#1da1f2">fa fa-facebook</v-icon>
+          </v-btn>
           </v-card-text>
 
-          <!-- <v-btn class="mt-0 mx-0" icon :href="person.twitterUrl" target="_blank">
-            <v-icon small center style="color:#1da1f2">fab fa-twitter</v-icon>
-          </v-btn> -->
+        
 
           
         </v-card>

@@ -1,5 +1,5 @@
 <template>
-   <v-container fluid class="pa-0 grey--text">
+   <v-container class="pa-0 grey--text">
       <v-layout wrap align-center justify-center row fill-height class="my-3" >
     <v-flex xs12 sm4 md4 lg4 class="">
      <v-card flat style="background-color:#f6f6f7" height="500" >
@@ -36,11 +36,10 @@
         </v-col>
         <v-card-text>
          
-        <p class=" green--text mb-3" style="font-size:170%;"> mission</p>
-          
-    <p style="font-family: 'Quicksand', sans-serif; font-size:100%" class="font-weight-bold">
-     To sustainably leverage the use of technology in driving for a 
-     food sufficient continents in manners that benefit all, and in ways that protect our ecosystem.
+        
+          <p class="mb-3 font-weight-bolder green--text" style="font-size:170%;" >Our vision</p>
+            <p style="font-family: 'Quicksand', sans-serif; font-size:100%" class="font-weight-bold">
+    Our vision is to see a food sufficient society that allows everyone on the African continent to have consistent access to healthy, affordable and nutritious food products.
     </p>
         </v-card-text>
          </v-card>  
@@ -57,11 +56,14 @@
         </v-col>
         <v-card-text>
          
-        <p class="mb-3 font-weight-bolder green--text" style="font-size:170%;" >Our vision</p>
-          
-    <p style="font-family: 'Quicksand', sans-serif; font-size:100%" class="font-weight-bold">
-    Our vision is to see a food sufficient society that allows everyone on the African continent to have consistent access to healthy, affordable and nutritious food products.
+        
+
+        <p class=" green--text mb-3" style="font-size:170%;"> mission</p>
+            <p style="font-family: 'Quicksand', sans-serif; font-size:100%" class="font-weight-bold">
+     To sustainably leverage the use of technology in driving for a 
+     food sufficient continents in manners that benefit all, and in ways that protect our ecosystem.
     </p>
+    
         </v-card-text>
          </v-card>  
       </v-flex>

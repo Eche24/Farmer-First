@@ -1,10 +1,11 @@
 <template>
-    <v-container>
+    <v-container fluid class="">
         <v-layout wrap align-center justify-center row fill-height>
             <v-flex xs12 >
                  <v-carousel 
                  hide-delimiters
                  cycle
+                 class="overlay"
                  >
     <v-carousel-item
       v-for="(item,i) in items"
@@ -37,3 +38,9 @@
     },
   }
 </script>
+<style scoped>
+.overlay {
+      opacity: 0.3;
+    background: linear-gradient(#ff5e7c, #c272d4);
+}
+</style>
