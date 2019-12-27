@@ -1,5 +1,9 @@
 <template>
    <v-container class="pa-0 grey--text">
+     <p class="text-uppercase " style="font-size:190%; text-align:center; font-family: 'Roboto', sans-serif; color:#c4c01a; "> Farmer first</p>
+        <p class="text-capitalize font-italic" style="font-size:130%; text-align:center; color: green; font-family: 'Quicksand', sans-serif;">
+                  building communities through smallholder farmers.... 
+               </p>
       <v-layout wrap align-center justify-center row fill-height class="my-3" >
     <v-flex xs12 sm4 md4 lg4 class="">
      <v-card flat style="background-color:#f6f6f7" height="500" >

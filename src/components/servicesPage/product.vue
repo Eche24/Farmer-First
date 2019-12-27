@@ -1,7 +1,7 @@
 <template>
-  <v-container>
-        <p class="text-uppercase mb-2 mt text-center" style="font-size:130%;">Our Products</p>
-    <v-layout row wrap fill-height>
+  <v-container style="background:#289020;">
+        <p class="text-uppercase mb-2 mt text-center" style="font-size:190%; color:#c4c01a;">Our Products</p>
+    <v-layout row wrap fill-height class="pb-4">
       <v-flex xs12 sm6 md6 lg4 v-for="person in products" :key="person.id">
          <v-hover v-slot:default="{ hover }">
         <v-card class="text-xs-center ma-3 mx-auto" max-width="344" height=420
@@ -75,36 +75,7 @@ export default {
                 return:"",
                 price:"",
                 img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576702681/images_hdooxt.jpg"
-            },
-            {
-                name: "yam",
-                 role: "cfo",
-                desc: "Eli drives Apptopia’s strategic vision and manages investor relations. Before",
-               duration:"",
-                return:"",
-                price:"",
-                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576702683/bauernhofprodukte_xxiohr.jpg"
-            },
-             {
-                name: "lorem ben ominn",
-                 role: "cfo",
-                desc: "Eli drives Apptopia’s strategic vision and manages investor relations. Bef",
-                duration:"",
-                return:"",
-                price:"",
-                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576702682/https___storage.googleapis.com_gen-atmedia_3_2014_10_8812190bf4f724878a4520f2a60b48ff9d99798e_algthv.jpg"
-            },
-             {
-                name: "lorem ben ominn",
-                 role: "cfo",
-                desc: "Eli drives Apptopia’s strategic vision and manages investor",
-               duration:"",
-                return:"",
-                price:"",
-                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576702682/Veggies1_ul1jbh.jpg"
             }
-
-
 
       ],
      

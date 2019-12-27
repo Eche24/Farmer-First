@@ -1,20 +1,19 @@
 <template>
   <Layout>
- <v-container fluid  class="">
+ <v-container fluid  class="pt-0">
       <v-layout wrap align-center justify-center row fill-height class="mt-">
-        <v-flex xs12 md12 >
+        <v-flex xs12 md12 lg12 >
           <HomeStartScreen />
         </v-flex>
       </v-layout>
     </v-container>
-  <v-container fluid style="background-color:#f6f6f7" > 
+      <p class="text-capitalize pt-3" style="font-size:170%; text-align:center; color:#c4c01a; font-family: 'roboto', sans-serif;">
+               Our offerings gives you leverage as you get to capitalize on.. 
+      </p>
+  <v-container class="pt-0" fluid style="background: #52c646;" > 
       <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10 class="">
-            <p class="text-uppercase" style="font-size:190%; text-align:center; font-family: 'Roboto', sans-serif; font-size:40px;"> Farmer first</p>
-               <p class="text-capitalize" style="font-size:140%; text-align:center; color: green; font-family: 'Quicksand', sans-serif;">
-                  building communities through smallholder farmers.... 
-               </p>
-          <About />
+        <v-flex xs12 md12 lg12 class="">
+          <WhoWeAre />
         </v-flex>
       </v-layout>
  </v-container>
@@ -26,15 +25,9 @@
       </v-layout>
     </v-container>
     <v-divider> </v-divider>
-     <v-container fluid style="background-color: #fafdfa">
-      <v-layout wrap align-center justify-center row fill-height>
-        <v-flex xs12 md10>
-          <Progress />
-        </v-flex>
-      </v-layout>
-    </v-container>
+     
     <v-divider />
-      <v-container fluid >
+      <v-container fluid class="pt-0"  style="background:#198e10;">
     
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
@@ -50,12 +43,20 @@
         </v-flex>
       </v-layout>
       </v-container>
+      <v-divider />
+      <v-container fluid style="background-color: #fafdfa">
+      <v-layout wrap align-center justify-center row fill-height>
+        <v-flex xs12 md10>
+          <Progress />
+        </v-flex>
+      </v-layout>
+    </v-container>
   </Layout>
 </template>
 
 <script>
  import HomeStartScreen from '~/components/hero.vue'
- import About from '~/components/about.vue'
+ import WhoWeAre from '~/components/whoWeAre.vue'
  import HowIt from '~/components/howItWork.vue'
  import Progress from '~/components/progress.vue'
  import Gallery from '~/components/gallery.vue'
@@ -64,7 +65,7 @@
   export default {
       components: {
       HomeStartScreen,
-      About,
+      WhoWeAre,
       HowIt,
       Progress,
       Gallery,

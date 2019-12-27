@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <p class="text-uppercase text-center mb-2 mt-2" style="font-size:170%; color:#616161;">Meet our team</p>  
+    <p class="text-uppercase text-center mb-2 mt-2 headline" style="font-size:170%; color:#c4c01a;">Meet our team</p>  
     <v-layout row wrap fill-height>
       <v-flex xs12 sm6 md6 lg4 v-for="person in speakers2019" :key="person.id">
         <v-card class="text-xs-center mx-auto mb-3" max-width="344" flat>
@@ -92,3 +92,7 @@ export default {
   
 };
 </script>
+<style scoped>
+.headline {
+}
+</style>

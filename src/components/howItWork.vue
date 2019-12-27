@@ -1,11 +1,11 @@
  <<template>
-      <v-container fluid class="grey--text" style="    background: linear-gradient(#ff5e7c, #c272d4);">
-          <p class=" text-center mb-0 black--text " style="font-size:140%;">Our Model</p> <br>
+      <v-container fluid class="grey--text" style="background:">
+          <p class=" text-center mb-0 black--text " style="font-size:190%;">Our Model</p> <br>
          <p class="text-center mb-0 blue--text" style="font-size:120%; font-family: 'Quicksand', sans-serif;">Our investment model is grouped into two parts A and B</p>
       <v-layout wrap align-center justify-center row fill-height class="my-3" >
          
        <v-flex xs12 sm6 md5 lg6 class="">  
-          <v-card flat>
+          <v-card flat dense>
              <v-card-title style="font-size:120%;">
              <p class="green--text"  > Part A (Social Farming) </p>
              </v-card-title>
@@ -40,7 +40,7 @@
         max-width="400"
          tile
        >
-           <p class="subtitle-4 text-center pt-4" style="font-size:150%;">How it work? </p>  
+           <p class="subtitle-4 text-center pt-4" style="font-size:180%;">How it work? </p>  
                  <p class="text-center mt-0 blue--text" style="font-size:; font-family: 'Quicksand', sans-serif;">Subscription Procedures:</p>
       
         <v-card-text style="font-family: 'Quicksand', sans-serif; font-size:110%" class="text-center green--text">

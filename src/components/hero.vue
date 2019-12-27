@@ -1,21 +1,31 @@
 <template>
-    <v-container fluid class="">
+    <!-- <v-container fluid class="">
         <v-layout wrap align-center justify-center row fill-height>
-            <v-flex xs12 >
+            <v-flex xs12 > -->
                  <v-carousel 
                  hide-delimiters
                  cycle
-                 class="overlay"
+                :show-arrows="false"
                  >
     <v-carousel-item
       v-for="(item,i) in items"
       :key="i"
       :src="item.src"
-    ></v-carousel-item>
+    >
+     
+     <v-row
+            class="fill-height overlay"
+            align="center"
+            justify="center"
+          >
+        <v-col class="text-center white--text" cols="12">
+        <h4 class="font-weight-thin mb-4">...building community through smallholder farmers</h4>
+        <h1 class="heading text-capitalize font-italic font-weight-black" style="font-size:170%; font-family: 'roboto', sans-serif;">lets walk you through a value-based agric-investment experience</h1>
+      </v-col>
+          </v-row>
+    </v-carousel-item>
   </v-carousel>
-            </v-flex>
-        </v-layout>
-    </v-container>
+        
 </template>
 <script>
   export default {
@@ -23,13 +33,13 @@
       return {
         items: [
           {
-            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576847174/IMG_20190816_113052_x19g09.jpg',
+            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577427671/hero1_ynojek.jpg',
           },
           {
-            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576648383/3_htg9es.jpg',
+            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577429435/hero43_ju7qob.jpg',
           },
           {
-            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576847799/DSCN9914-2_rmuofu.jpg',
+            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577430407/hero344_prh1jh.jpg',
           },
           
         ],
@@ -40,7 +50,8 @@
 </script>
 <style scoped>
 .overlay {
-      opacity: 0.3;
-    background: linear-gradient(#ff5e7c, #c272d4);
+      opacity: 0.8;
+      z-index: 1;
+    background: rgba(129, 199, 132, 0.47);
 }
 </style>

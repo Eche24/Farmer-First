@@ -1,6 +1,6 @@
 <template>
   <v-container class=" text-center">
-      <p class="text-uppercase mb-2 mt-2 " style="font-size:130%;">Progress So Far</p>
+      <p class="text-uppercase mb-2 mt-2 " style="font-size:190%;">Progress So Far</p>
     <v-row class="fill-height" align="center" justify="center">
       <template v-for="(item, i) in items">
         <v-col
