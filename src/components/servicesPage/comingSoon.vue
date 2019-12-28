@@ -21,10 +21,10 @@
           <v-expand-transition>
           <div
             v-if="hover"
-            class="d-flex transition-fast-in-fast-out red darken-2 v-card--reveal display-3 white--text"
+            class="d-flex transition-fast-in-fast-out yellow darken-2 v-card--reveal display-3 white--text"
             style="height: 100%;"
           >
-          <p> closed </p> 
+          <p> coming soon </p> 
           </div>
         </v-expand-transition>
           <v-card-text>
@@ -48,7 +48,7 @@ export default {
     return {
       products: [
             {
-                name: "soyabean",
+                name: "machine",
                  role: "makurdi",
                 desc: "Eli drivesi was involved in several startups, including: GPush,",
                 duration:"4 months",
@@ -57,7 +57,7 @@ export default {
                 img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576702683/bauernhofprodukte_xxiohr.jpg"
             },
                {
-                name: "rice",
+                name: "tomato",
                  role: "cfo",
                 desc: "Eli drives Apptopia’s strategic vision and manages investor relatio",
                  duration:"",
@@ -66,7 +66,7 @@ export default {
                 img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576702681/MarketVegetablesMain-1_nxka4z.jpg"
             },
                {
-                name: "seed",
+                name: "equipment lease",
                  role: "cfo",
                 desc: "Eli drives Apptopia’s strategic vision and manages investor relations.",
                 duration:"",

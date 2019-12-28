@@ -4,7 +4,7 @@
         <p class="text-capitalize font-italic" style="font-size:130%; text-align:center; color: green; font-family: 'Quicksand', sans-serif;">
                   building communities through smallholder farmers.... 
                </p>
-      <v-layout wrap align-center justify-center row fill-height class="my-3" >
+      <v-layout wrap align-center justify-center row fill-height class="my-3 pa-2" >
     <v-flex xs12 sm4 md4 lg4 class="">
      <v-card flat style="background-color:#f6f6f7" height="500" >
         
@@ -12,7 +12,7 @@
           <v-img
             height="200"
             width="600"
-            src="https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576847154/D755_6_053_0004_600_kjzgvg.jpg"
+            src="https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577477048/about2_a3mbi2.jpg"
           ></v-img>
         </v-col>
         <v-card-text>

@@ -7,6 +7,9 @@
 module.exports = {
   siteName: 'Farmer Frist',
   siteUrl: '',
-  plugins: [],
-  icon: './src/favicon.png'
+    icon: {
+      favicon: './src/my-favicon.png',
+    }
+  
+
 }

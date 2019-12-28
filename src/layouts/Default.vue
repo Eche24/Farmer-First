@@ -107,7 +107,7 @@
       items:[
           { text: 'Home', icon: 'mdi-home',link:'/'},
           { text: 'About', icon: 'mdi-view-dashboard',link:'/about'},
-            { text: 'Farms', icon: 'mdi-account',link:'/farms'},
+            { text: 'Farms/Products', icon: 'mdi-account',link:'/farmsproduct'},
             { text: 'Contact', icon: 'mdi-dialpad',link:'/contact'},
               
       ]

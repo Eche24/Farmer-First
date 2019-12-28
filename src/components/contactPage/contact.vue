@@ -1,13 +1,13 @@
 <template>
     <v-container fluid class="mt-2 mb-0">
       <v-layout wrap align-start justify-center row fill-height class="my-0">
-        <v-flex xs12 md4 class="mb-0"> 
+        <v-flex xs12 md10 class="mb-0"> 
           <v-card flat> 
             <v-card-title>
-          <p class="" style="font-size:150%;color:#616161">Contact farmer first</p>
+          <p class="text-uppercase mb-2 mt text-center" style="font-size:190%; color:#c4c01a;">Contact farmer first</p>
             </v-card-title>
             <v-card-text>
-             <p class="text--blue" style="font-size:150%">How To Reach Us:</p>
+             <p class=" mb-0 mt-0" style="font-size:140%;color:#2c592a">How To Reach Us:</p>
              <!-- <p class="font-weight-bold" style="font-size:110%">Phone : 23407035312997</p>
              <p class="font-weight-bold" style="font-size:110%">Email : Spwesn@gmail.com</p> -->
             </v-card-text>

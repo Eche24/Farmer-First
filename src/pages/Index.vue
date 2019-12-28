@@ -27,16 +27,17 @@
     <v-divider> </v-divider>
      
     <v-divider />
-      <v-container fluid class="pt-0"  style="background:#198e10;">
-    
+      <v-container fluid class="pt-0"  style="background:#198e10;">   
+              <p class="text-uppercase mb-2 mt text-center" style="font-size:190%; color:#c4c01a;">Our Products</p>
+ 
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
        <Gallery />
         </v-flex>
       </v-layout>
       </v-container>
-         <v-container fluid >
-    
+
+      <v-container fluid >
       <v-layout wrap align-center justify-center row fill-height>
         <v-flex xs12 md10>
        <ContactForm />
