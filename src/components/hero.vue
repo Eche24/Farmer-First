@@ -19,7 +19,7 @@
             justify="center"
           >
         <v-col class="text-center white--text textover" cols="12" style="">
-        <h4 class="mb-2" style=" font-family: 'Roboto', sans-serif; font-size:150%; font-weight: 900;">...building community through smallholder farmers</h4>
+        <h4 class="mb-2" style=" font-family: 'Roboto', sans-serif; font-size:150%; font-weight: 900;">...building community through smallholder farmers </h4>
         <h1 class="heading text-capitalize font-italic font-weight-black" style="font-size:200%; font-family: 'roboto', sans-serif;">lets walk you through a value-based agric-investment experience</h1>
       </v-col>
           </v-row>
