@@ -1,4 +1,4 @@
 # farmer first
-build using gridsome 
-npm install
-gridsome develop
+### build using gridsome 
+#### npm install
+#### gridsome develop
