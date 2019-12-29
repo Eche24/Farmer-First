@@ -14,13 +14,13 @@
     >
      
      <v-row
-            class="fill-height  overlay"
+            class="fill-height overlay"
             align="center"
             justify="center"
           >
-        <v-col class="text-center white--text textover" cols="12" style="">
-        <h4 class="mb-2" style=" font-family: 'Roboto', sans-serif; font-size:150%; font-weight: 900;">...building community through smallholder farmers </h4>
-        <h1 class="heading text-capitalize font-italic font-weight-black" style="font-size:200%; font-family: 'roboto', sans-serif;">lets walk you through a value-based agric-investment experience</h1>
+        <v-col class="text-center white--text pt-5 " cols="12" style="margin-top:10%;">
+        <h4 class="textover" style=" font-family: 'Roboto', sans-serif; font-size:150%; font-weight: 900;">...building community through smallholder farmers </h4>
+        <h1 class="text-capitalize textover" style="font-size:190%; font-family: 'roboto', sans-serif;">lets walk you through a value-based agric-investment experience</h1>
       </v-col>
           </v-row>
     </v-carousel-item>
@@ -49,19 +49,16 @@
   }
 </script>
 <style scoped>
-.overlay {
-      opacity: 0.9;
-      
-    background: rgba(129, 199, 132, 0.47);
+.overlay{
+      opacity: 1;
+      background: rgba(129, 199, 132, 0.47);
   
     
 }
 .textover {
   
-   text-shadow: 0px 3px 0px #b2a98f,
-                 0px 14px 10px rgba(0,0,0,0.15),
-                 0px 24px 2px rgba(0,0,0,0.1),
-                 0px 34px 30px rgba(0,0,0,0.1);
-  z-index:1;
+ line-height: 1.5em;
+ text-shadow: 2px 2px 2px #000;
+  
 }
 </style>

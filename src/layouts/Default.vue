@@ -15,9 +15,11 @@
         <v-toolbar-title
           class="ml-2 pl-2"
           :to="$url('/')"
-          title="Home"
+          title="Farmer First"
         >
-          <g-image src="@/assets/img/logo/logo3.png"  width="150vh" alt='farmer first logo' style="margin: 10px 0 0 0"/>
+          <g-image src="@/assets/img/logo/logo3.png"  
+          width="150vh" alt='farmer first logo' 
+          style="margin: 10px 0 0 0"/>
         </v-toolbar-title>
         <v-spacer />
         <v-toolbar-items
