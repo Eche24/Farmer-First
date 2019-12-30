@@ -1,9 +1,9 @@
 *.log
 .cache
 .DS_Store
+.firebase
 src/.temp
 src/fb.js
-.firebase
 node_modules
 dist
 .env
