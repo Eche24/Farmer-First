@@ -1,14 +1,24 @@
 <template>
   <Layout>
- <v-container fluid  class="pt-0">
+ <v-container fluid  class="pt-0 pb-0">
       <v-layout wrap align-center justify-center row fill-height class="mt-">
         <v-flex xs12 md12 lg12 >
           <HomeStartScreen />
         </v-flex>
       </v-layout>
     </v-container>
+   <v-container class="pt-0 hidden-sm-and-up " style="background-color:#10bb10b3; text-shadow: 2px 2px 2px #000; font-style:italic;" fluid>
+     <v-layout wrap align-center justify-center row fill-height class=" pt-0 white--text ">
+      <p class="text-capitalize pt-1" style="font-size:120%; text-align:center; font-family: 'roboto', sans-serif;">
+            ...building communities through smallholder farmers 
+      </p>
+      <p class="text-capitalize " style="font-size:130%; text-align:center; font-family: 'roboto', sans-serif;">
+          lets walk you through a value-based agric-investment experience
+      </p>
+     </v-layout>
+   </v-container>
       <p class="text-capitalize pt-3" style="font-size:170%; text-align:center; color:#c4c01a; font-family: 'roboto', sans-serif;">
-               Our offerings gives you leverage as you get to capitalize on.. 
+        Our offerings gives you leverage as you get to capitalize on.. 
       </p>
   <v-container class="pt-0" fluid style="background: #52c646;" > 
       <v-layout wrap align-center justify-center row fill-height>

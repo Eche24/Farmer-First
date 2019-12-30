@@ -14,12 +14,13 @@
     >
      
      <v-row
-            class="fill-height overlay"
+            class="fill-height overlay hidden-xs-only"
             align="center"
             justify="center"
+           
           >
         <v-col class="text-center white--text pt-5 " cols="12" style="margin-top:10%;">
-        <h4 class="textover" style=" font-family: 'Roboto', sans-serif; font-size:150%; font-weight: 900;">...building community through smallholder farmers </h4>
+        <h4 class="textover " style=" font-family: 'Roboto', sans-serif; font-size:150%; font-weight: 900;">...building communities through smallholder farmers </h4>
         <h1 class="text-capitalize textover" style="font-size:190%; font-family: 'roboto', sans-serif;">lets walk you through a value-based agric-investment experience</h1>
       </v-col>
           </v-row>
@@ -50,8 +51,8 @@
 </script>
 <style scoped>
 .overlay{
-      opacity: 1;
-      background: rgba(129, 199, 132, 0.47);
+      /* opacity: 1;
+      background: rgba(129, 199, 132, 0.47); */
   
     
 }

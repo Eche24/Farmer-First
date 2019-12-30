@@ -48,7 +48,7 @@ export default {
       speakers2019: [
             {
                 name: "Iortyom Terver Derek",
-                 role: "Co-Founder/Chief Financial Officer ",
+                 role: "Co-Founder/Chief Executive Officer ",
                 desc: "",
                 twitterUrl:"",
                 facebookUrl:"",
@@ -57,7 +57,7 @@ export default {
             },
                {
                 name: "Tuleun Aondohemba Kelvin",
-                 role: "Co-Founder/Farm Lead",
+                 role: "Co-Founder/Chief Operating Officer",
                 desc: "",
                 twitterUrl:"",
                 facebookUrl:"",
@@ -66,7 +66,7 @@ export default {
             },
                {
                 name: "Orjime Oliver Tsokar",
-                 role: "Co-Founder/Head of Data Intelligence",
+                 role: "Co-Founder/Chief Operating Officer",
                 desc: "",
                 twitterUrl:"",
                 facebookUrl:"",
@@ -75,7 +75,7 @@ export default {
             },
              {
                 name: "Dexter Aondofaseer Iorkohol",
-                 role: "Co-Founder/Head of Operations ",
+                 role: "Co-Founder/Chief Operating Officer",
                 desc: "",
                 twitterUrl:"",
                 facebookUrl:"",

@@ -5,8 +5,12 @@
       <v-layout wrap align-center justify-center row fill-height class="my-3" >
          
        <v-flex xs12 sm6 md5 lg6 class="">  
-          <v-card flat dense>
-             <v-card-title style="font-size:120%;">
+          <v-card 
+          flat 
+          dense 
+          height='250'
+          >
+          <v-card-title style="font-size:120%;">
              <p class="green--text"  > Part A (Social Farming) </p>
              </v-card-title>
       <v-card-text>
@@ -16,9 +20,15 @@
         </v-card-text>
         </v-card>
         </v-flex>
+
          <v-flex xs12 sm6 md6 lg6 class=""> 
-            <v-card flat>
-                <v-card-title style="font-size:120%;">
+
+            <v-card 
+            flat
+             dense
+            height="250"
+            >
+          <v-card-title style="font-size:120%;">
         <p class=" green--text sub-heading"  > Part B (Contract Farming) </p>
         </v-card-title>
         <v-card-text>
