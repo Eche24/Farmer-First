@@ -7,9 +7,9 @@
         </v-flex>
       </v-layout>
     </v-container>
-   <v-container class="pt-0 hidden-sm-and-up " style="background-color:#10bb10b3; text-shadow: 2px 2px 2px #000; font-style:italic;" fluid>
+   <v-container class="pt-0 hidden-sm-and-up " style="background-color:#10bb10b3; text-shadow: 2px 2px 2px #000;" fluid>
      <v-layout wrap align-center justify-center row fill-height class=" pt-0 white--text ">
-      <p class="text-capitalize pt-1" style="font-size:120%; text-align:center; font-family: 'roboto', sans-serif;">
+      <p class="text-capitalize pt-1" style="font-size:120%; text-align:center; font-family: 'roboto', sans-serif; font-style:italic;">
             ...building communities through smallholder farmers 
       </p>
       <p class="text-capitalize " style="font-size:130%; text-align:center; font-family: 'roboto', sans-serif;">

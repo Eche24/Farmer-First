@@ -21,8 +21,8 @@
           <v-expand-transition>
           <div
             v-if="hover"
-            class="d-flex transition-fast-in-fast-out yellow darken-2 v-card--reveal display-3 white--text"
-            style="height: 100%;"
+            class="d-flex transition-fast-in-fast-out yellow darken-2 v-card--reveal display-2 white--text"
+            style="height: 100%; text-shadow: 2px 2px 2px #000;"
           >
           <p> coming soon </p> 
           </div>
@@ -30,10 +30,10 @@
           <v-card-text>
             <div class="subheading teal--text text-capitalize title" style="font-family: 'Roboto', sans-serif;">{{person.name}}</div>
              <div class="blue-grey--text subtitle-1" >{{person.role}}</div>
-           
+<!--            
            <b>Duration</b>  <v-chip outlined class="ma-1">{{person.duration}}</v-chip>
             <b>Return </b><v-chip outlined class="ma-1">{{person.return}}</v-chip><br>
-            <b>Price</b> <v-chip outlined class="ma-1"  color="success">₦{{person.price}}</v-chip>
+            <b>Price</b> <v-chip outlined class="ma-1"  color="success">₦{{person.price}}</v-chip> -->
           </v-card-text>
         </v-card>
          </v-hover>
@@ -48,17 +48,17 @@ export default {
     return {
       products: [
             {
-                name: "machine",
+                name: "Tractor Hiring",
                  role: "makurdi",
                 desc: "Eli drivesi was involved in several startups, including: GPush,",
-                duration:"4 months",
-                return:"15%",
-                price:"47000",
-                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576702683/bauernhofprodukte_xxiohr.jpg"
+                duration:"",
+                return:"",
+                price:"",
+                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577720425/farmerfirsttractor_suxszz.jpg"
             },
                {
-                name: "tomato",
-                 role: "cfo",
+                name: "Green House",
+                 role: "",
                 desc: "Eli drives Apptopia’s strategic vision and manages investor relatio",
                  duration:"",
                 return:"",
@@ -67,12 +67,12 @@ export default {
             },
                {
                 name: "equipment lease",
-                 role: "cfo",
+                 role: "",
                 desc: "Eli drives Apptopia’s strategic vision and manages investor relations.",
                 duration:"",
                 return:"",
                 price:"",
-                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576702681/images_hdooxt.jpg"
+                img: ""
             }
 
       ],

@@ -20,7 +20,7 @@
            
           >
         <v-col class="text-center white--text pt-5 " cols="12" style="margin-top:10%;">
-        <h4 class="textover " style=" font-family: 'Roboto', sans-serif; font-size:150%; font-weight: 900;">...building communities through smallholder farmers </h4>
+        <h4 class="textover " style=" font-family: 'Roboto', sans-serif; font-size:150%; font-weight: 900; font-style:italic">...building communities through smallholder farmers </h4>
         <h1 class="text-capitalize textover" style="font-size:190%; font-family: 'roboto', sans-serif;">lets walk you through a value-based agric-investment experience</h1>
       </v-col>
           </v-row>
@@ -37,12 +37,20 @@
             src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577427671/hero1_ynojek.jpg',
           },
           {
-            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577429435/hero43_ju7qob.jpg',
-          },
-          {
-            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577430407/hero344_prh1jh.jpg',
+            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577710064/hero2_soyoym.jpg',
           },
           
+          {
+           
+             src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577710611/IMG_20190717_095142_csh9we.jpg',
+          },
+          {
+           
+             src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577429435/hero43_ju7qob.jpg',
+          },
+            {
+            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577711493/hero222_ak2evd.jpg',
+          }
         ],
          cycle: true,
       }

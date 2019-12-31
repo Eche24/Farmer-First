@@ -8,23 +8,21 @@
           cols="12"
           md="3"
         >
-          <v-hover v-slot:default="{ hover }">
+          <!-- <v-hover v-slot:default="{ hover }"> -->
             <v-card
-              :elevation="hover ? 12 : 2"
-              :class="{ 'on-hover': hover }"
-              color="green"
+              color=""
+              style="background-color:#06753f;"
+              class="hover"
             >
-              <!-- <v-img
-                :src="item.img"
-                height="225px"
-              > -->
-                  <!-- </v-img> -->
-                <v-card-title class="title black--text">
+         
+                <v-card-title class="title black--text hover"
+                
+                >
                   <v-row
                     class="fill-height flex-column"
                     justify="space-between"
                   >
-                    <p class="mt-4 subheading text-center" style="font-size:180%;">{{ item.title }}</p>
+                    <p class="mt-4 subheading text-center white--text " style="font-size:180%; font-weight:900;">{{ item.title }}</p>
 
                     <div>
                       <p class="ma-0 font-weight-bolder text-center text-capitalize white--text"  style="font-size:95%;">
@@ -38,7 +36,7 @@
                 </v-card-title>
           
             </v-card>
-          </v-hover>
+          <!-- </v-hover> -->
         </v-col>
       </template>
     </v-row>
@@ -78,15 +76,20 @@
   }
 </script>
 <style scoped>
-.v-card {
+
+/* .v-card {
   transition: opacity .4s ease-in-out;
-}
+} */
 
-.v-card:not(.on-hover) {
+/* .v-card:not(.on-hover) {
   opacity: 0.6;
- }
+ } */
 
-.show-btns {
-  color: rgba(255, 255, 255, 1) !important;
+/* .show-btns {
+  color: rgb(11, 134, 16) !important;
+} */
+.hover:hover {
+  transition: opacity .4s ease-in-out;
+  background-color: #0c9a2fe0;
 }
 </style>

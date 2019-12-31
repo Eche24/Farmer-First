@@ -5,10 +5,10 @@
          <!-- <p class="text-center black--text" style="font-size:150%">Our Farms</p> -->
        <v-card flat>
            <p class="text-uppercase mb-2 mt text-center" style="font-size:190%; color:#c4c01a;">
-               Our Activities of 2019
+              Gallery of our  2019 activities 
                  
            </p>
-         <v-carousel :show-arrows="false">
+         <v-carousel :show-arrows="true">
     <v-carousel-item
       v-for="(item,i) in items"
       :key="i"
@@ -25,7 +25,7 @@
         <v-flex xs12 md12 class=" pl-2">
         <Product />
         <v-divider />
-            <p class="text-center black--text pt-2" style="font-size:150%">Coming Soon</p>
+            <p class="text-center pt-2" style="font-size:150%; color:#c4c01a;">Coming Soon</p>
         <ComingSoon />
 
          </v-flex>
@@ -46,9 +46,26 @@ export default {
     data () {
       return {
         items: [
-          {
-            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577427671/hero1_ynojek.jpg',
+         
+           {
+            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577715890/farmerFirst-activities-2_dzk79x.jpg',
           },
+           {
+            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577716430/farmerfirst-activity-2019_d3fxrk.jpg',
+          },
+           {
+            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577716741/farmerFirst-activities-2019-2_nbrjft.jpg',
+          },
+            {
+            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577717627/farmerfirstactivities-2019_oruqi5.jpg',
+          }
+          ,
+            {
+            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577718488/activityfarmerFirst_k9nbqq.jpg',
+          },
+            {
+            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577718693/farmerfirstactivity2_e8rtsm.jpg',
+          }
           
         ],
       }

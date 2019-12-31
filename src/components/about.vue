@@ -12,7 +12,7 @@
           <v-img
             height="200"
             width="600"
-            src="https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577477048/about2_a3mbi2.jpg"
+            src="https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577713749/IMG-20191010-WA0000_1_muj935.jpg"
           ></v-img>
         </v-col>
         <v-card-text>

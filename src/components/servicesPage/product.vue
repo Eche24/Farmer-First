@@ -22,7 +22,7 @@
           <div
             v-if="hover"
             class="d-flex transition-fast-in-fast-out red darken-2 v-card--reveal display-3 white--text"
-            style="height: 100%;"
+            style="height: 100%; text-shadow: 2px 2px 2px #000;"
           >
           <p> closed </p> 
           </div>
@@ -49,30 +49,30 @@ export default {
       products: [
             {
                 name: "soyabean",
-                 role: "makurdi",
+                 role: "Makurdi",
                 desc: "Eli drivesi was involved in several startups, including: GPush,",
-                duration:"4 months",
+                duration:"9 months",
                 return:"15%",
-                price:"47000",
-                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576702683/bauernhofprodukte_xxiohr.jpg"
+                price:"50000",
+                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577712586/soybean_oq6jn8.jpg"
             },
                {
-                name: "rice",
-                 role: "cfo",
+                name: "Rice",
+                 role: "Makurdi",
                 desc: "Eli drives Apptopia’s strategic vision and manages investor relatio",
-                 duration:"",
-                return:"",
-                price:"",
-                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576702681/MarketVegetablesMain-1_nxka4z.jpg"
+                 duration:"6 Months",
+                return:" 25% ",
+                price:"125000",
+                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577712762/rice_eso2vk.jpg"
             },
                {
-                name: "seed",
-                 role: "cfo",
+                name: "Sesame",
+                 role: "Doma",
                 desc: "Eli drives Apptopia’s strategic vision and manages investor relations.",
-                duration:"",
-                return:"",
-                price:"",
-                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576702681/images_hdooxt.jpg"
+                duration:" 4 Months",
+                return:"15%",
+                price:"50000",
+                img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577712872/seed_pbm255.jpg"
             }
 
       ],
