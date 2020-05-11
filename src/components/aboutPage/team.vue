@@ -44,7 +44,7 @@ export default {
       speakers2019: [
             {
                 name: "Iortyom Terver Derek",
-                 role: "Founding Partner/CEO ",
+                 role: "Founding Partner | CEO ",
                 desc: "",
                 twitterUrl:"https://twitter.com/terver88",
                 facebookUrl:"https://www.facebook.com/iortyom.t.derek",
@@ -53,7 +53,7 @@ export default {
             },
                {
                 name: "Tuleun Aondohemba Kelvin",
-                 role: "Founding Partner|Team Lead Agric Investment",
+                 role: "Founding Partner | Team Lead Agric Investment",
                 desc: "",
                 twitterUrl:"",
                 facebookUrl:"https://www.facebook.com/tuleun.kelvin",
@@ -62,7 +62,7 @@ export default {
             },
                {
                 name: "Orjime Oliver Tsokar",
-                 role: "Found Partner|Team Lead Marketing & Logistics",
+                 role: "Found Partner | Team Lead Marketing & Logistics",
                 desc: "",
                 twitterUrl:"https://twitter.com/Orjime18",
                 facebookUrl:"https://www.facebook.com/Tsokarorjime",
@@ -71,7 +71,7 @@ export default {
             },
              {
                 name: "Dexter Aondofaseer Iorkohol",
-                 role: "Founding Partner|Team Lead Administration & Human Resources Management",
+                 role: "Founding Partner | Team Lead Administration & Human Resources Management",
                 desc: "",
                 twitterUrl:"https://twitter.com/dexter_faseer",
                 facebookUrl:"https://www.facebook.com/dexterfaseer",

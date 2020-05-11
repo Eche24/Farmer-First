@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'FarmerFirst',
-  siteUrl: '',
+  siteUrl: 'farmerfirst.com.ng',
   siteDescription: '...building community through smallholder farmers',
     icon: {
       favicon: './src/favicon.png',

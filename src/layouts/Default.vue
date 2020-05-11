@@ -12,15 +12,17 @@
           @click.stop="drawer = !drawer"
         />
         
+        <g-link :to="{ path: '/' }">
         <v-toolbar-title
           class="ml-2 pl-2"
-          :to="$url('/')"
-          title="Farmer First"
+           title="Farmer First"
         >
           <g-image src="@/assets/img/logo/logo3.png"  
           width="150vh" alt='farmer first logo' 
-          style="margin: 10px 0 0 0"/>
+          style="margin: 10px 0 0 0"
+          />
         </v-toolbar-title>
+        </g-link>
         <v-spacer />
         <v-toolbar-items
           class="hidden-xs-only"
@@ -57,7 +59,9 @@
         <v-list-item>
           <v-list-item-content>
             <v-list-item-title class="">
+              <g-link :to="{ path: '/' }">
              <g-image src="@/assets/img/logo/logo3.png" width="100vh alt='farmer first logo' "/>
+              </g-link>
             </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
