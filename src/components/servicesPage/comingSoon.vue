@@ -30,8 +30,9 @@
           <v-card-text>
             <div class="subheading teal--text text-capitalize title" style="font-family: 'Roboto', sans-serif;">{{person.name}}</div>
              <div class="blue-grey--text subtitle-1" >{{person.role}}</div>
-<!--            
-           <b>Duration</b>  <v-chip outlined class="ma-1">{{person.duration}}</v-chip>
+             <div class="black--text subheading" >{{person.coming}}</div>
+            
+           <!-- <b>Duration</b>  <v-chip outlined class="ma-1">{{person.duration}}</v-chip>
             <b>Return </b><v-chip outlined class="ma-1">{{person.return}}</v-chip><br>
             <b>Price</b> <v-chip outlined class="ma-1"  color="success">₦{{person.price}}</v-chip> -->
           </v-card-text>
@@ -53,6 +54,7 @@ export default {
                 desc: "Eli drivesi was involved in several startups, including: GPush,",
                 duration:"",
                 return:"",
+                coming:" Coming Soon",
                 price:"",
                 img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577720425/farmerfirsttractor_suxszz.jpg"
             },
@@ -65,15 +67,17 @@ export default {
                 price:"",
                 img: "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1576702681/MarketVegetablesMain-1_nxka4z.jpg"
             },
-               {
-                name: "equipment lease",
-                 role: "",
-                desc: "Eli drives Apptopia’s strategic vision and manages investor relations.",
-                duration:"",
-                return:"",
-                price:"",
-                img: ""
-            }
+        {
+          name: "Sesame",
+          role: "Doma",
+          desc:
+            "Eli drives Apptopia’s strategic vision and manages investor relations.",
+          duration: " 4 Months",
+          return: "15%",
+          price: "50000",
+          img:
+            "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577712872/seed_pbm255.jpg"
+        }
 
       ],
      

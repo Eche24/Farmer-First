@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Farmer Frist',
+  siteName: 'FarmerFirst',
   siteUrl: '',
   siteDescription: '...building community through smallholder farmers',
     icon: {
