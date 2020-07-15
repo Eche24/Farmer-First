@@ -4,6 +4,7 @@
       <v-card flat>
         <v-container fluid>
           <v-row>
+           <NewProduct />
            <Product />
           </v-row>
         </v-container>
@@ -13,9 +14,11 @@
 </template>
 <script>
 import Product from '~/components/servicesPage/product.vue'
+import NewProduct from '~/components/servicesPage/newProduct.vue'
 export default {
   components :{
-         Product  
+         Product,
+         NewProduct  
     },
 }
 </script>

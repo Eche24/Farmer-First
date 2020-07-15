@@ -62,7 +62,7 @@ export default {
             },
                {
                 name: "Orjime Oliver Tsokar",
-                 role: "Found Partner | Team Lead Marketing & Logistics",
+                 role: "Founding Partner | Team Lead Marketing & Logistics",
                 desc: "",
                 twitterUrl:"https://twitter.com/Orjime18",
                 facebookUrl:"https://www.facebook.com/Tsokarorjime",

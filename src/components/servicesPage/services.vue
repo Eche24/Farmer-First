@@ -23,6 +23,7 @@
       <v-layout wrap align-center justify-center row fill-height>
         <p class="text-uppercase mb-2 mt text-center" style="font-size:190%; color:#c4c01a;">Our Products</p>
         <v-flex xs12 md12 class=" pl-2">
+        <NewProduct />
         <Product />
         <v-divider />
             <p class="text-center pt-2" style="font-size:150%; color:#c4c01a;">Coming Soon</p>
@@ -34,12 +35,14 @@
 </template>
 <script>
 import Product from '~/components/servicesPage/product.vue'
+import NewProduct from '~/components/servicesPage/newProduct.vue'
 import Activity from '~/components/servicesPage/activity.vue'
 import ComingSoon from '~/components/servicesPage/comingSoon.vue'
 
 export default {
       components :{
         Product,
+        NewProduct,
         Activity,
         ComingSoon
     },

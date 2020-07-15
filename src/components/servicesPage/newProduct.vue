@@ -19,10 +19,10 @@
             <v-expand-transition>
               <div
                 v-if="hover"
-                class="d-flex transition-fast-in-fast-out red darken-2 v-card--reveal display-3 white--text"
+                class="d-flex transition-fast-in-fast-out green darken-2 v-card--reveal display-3 white--text"
                 style="height: 100%; text-shadow: 2px 2px 2px #000;"
               >
-                <p>Closed</p>
+                <p>Now Selling</p>
               </div>
             </v-expand-transition>
             <v-card-text>
@@ -41,7 +41,7 @@
               <v-chip outlined class="ma-1" color="success">₦{{person.price}}</v-chip>
             </v-card-text>
             <v-card-actions>
-              <v-btn color="grey darken-1" text @click="reserve">Closed</v-btn>
+              <v-btn color="green lighten-2" text @click="reserve">Now Selling</v-btn>
             </v-card-actions>
           </v-card>
         </v-hover>
@@ -55,38 +55,38 @@ export default {
     return {
       products: [
         {
-          name: "soyabean",
+          name: "Cattles",
           role: "Makurdi",
           desc:
             "Eli drivesi was involved in several startups, including: GPush,",
-          duration: "6 months",
-          return: "25%",
+          duration: "12 months",
+          return: "50%",
           price: "50000",
           img:
-            "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577712586/soybean_oq6jn8.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/study-9f8db.appspot.com/o/cattle-ranches.jpg?alt=media&token=dbe173c0-e274-45f8-a746-140c010ea0cb"
         },
         {
-          name: "Rice",
+          name: "Commodity Trading",
           role: "Makurdi",
           desc:
             "Eli drives Apptopia’s strategic vision and manages investor relatio",
-          duration: "6 Months",
-          return: " 25% ",
+          duration: "4 Months",
+          return: " 15% ",
           price: "50000",
           img:
-            "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577712762/rice_eso2vk.jpg"
+            "https://firebasestorage.googleapis.com/v0/b/study-9f8db.appspot.com/o/commodity-trading-famerfirst.jpg?alt=media&token=fb47116f-e9a5-461b-a020-31547225c6e3"
         },
-        // {
-        //   name: "Sesame",
-        //   role: "Doma",
-        //   desc:
-        //     "Eli drives Apptopia’s strategic vision and manages investor relations.",
-        //   duration: " 4 Months",
-        //   return: "15%",
-        //   price: "50000",
-        //   img:
-        //     "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577712872/seed_pbm255.jpg"
-        // }
+        {
+          name: "Commodity Trading",
+          role: "Makurdi",
+          desc:
+            "Eli drives Apptopia’s strategic vision and manages investor relations.",
+          duration: " 6 Months",
+          return: "25%",
+          price: "50000",
+          img:
+            "https://firebasestorage.googleapis.com/v0/b/study-9f8db.appspot.com/o/commodity-trading-famerfirst.jpg?alt=media&token=fb47116f-e9a5-461b-a020-31547225c6e3"
+        }
       ]
     };
   }
