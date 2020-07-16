@@ -41,7 +41,7 @@
               <v-chip outlined class="ma-1" color="success">₦{{person.price}}</v-chip>
             </v-card-text>
             <v-card-actions>
-              <v-btn color="grey darken-1" text @click="reserve">Closed</v-btn>
+              <v-btn color="red darken-1" text @click="reserve">Closed</v-btn>
             </v-card-actions>
           </v-card>
         </v-hover>

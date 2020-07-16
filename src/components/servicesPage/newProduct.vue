@@ -74,7 +74,7 @@ export default {
           return: " 15% ",
           price: "50000",
           img:
-            "https://firebasestorage.googleapis.com/v0/b/study-9f8db.appspot.com/o/commodity-trading-famerfirst.jpg?alt=media&token=fb47116f-e9a5-461b-a020-31547225c6e3"
+            "https://firebasestorage.googleapis.com/v0/b/study-9f8db.appspot.com/o/farmer-first-commodity-trading-1.jpg?alt=media&token=5ae37d33-58c0-4512-8e6b-c52407d966e7"
         },
         {
           name: "Commodity Trading",
@@ -85,7 +85,7 @@ export default {
           return: "25%",
           price: "50000",
           img:
-            "https://firebasestorage.googleapis.com/v0/b/study-9f8db.appspot.com/o/commodity-trading-famerfirst.jpg?alt=media&token=fb47116f-e9a5-461b-a020-31547225c6e3"
+            "https://firebasestorage.googleapis.com/v0/b/study-9f8db.appspot.com/o/IMG-20200715-WA0003.jpg?alt=media&token=f1d9fb7e-1fc5-4d71-b5b6-e9b14ba2e74d"
         }
       ]
     };
