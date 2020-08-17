@@ -54,19 +54,19 @@ export default {
   data() {
     return {
       products: [
+        // {
+        //   name: "Cattles",
+        //   role: "Makurdi",
+        //   desc:
+        //     "Eli drivesi was involved in several startups, including: GPush,",
+        //   duration: "12 months",
+        //   return: "50%",
+        //   price: "50000",
+        //   img:
+        //     "https://firebasestorage.googleapis.com/v0/b/study-9f8db.appspot.com/o/cattle-ranches.jpg?alt=media&token=dbe173c0-e274-45f8-a746-140c010ea0cb"
+        // },
         {
-          name: "Cattles",
-          role: "Makurdi",
-          desc:
-            "Eli drivesi was involved in several startups, including: GPush,",
-          duration: "12 months",
-          return: "50%",
-          price: "50000",
-          img:
-            "https://firebasestorage.googleapis.com/v0/b/study-9f8db.appspot.com/o/cattle-ranches.jpg?alt=media&token=dbe173c0-e274-45f8-a746-140c010ea0cb"
-        },
-        {
-          name: "Commodity Trading",
+          name: "Commodity Trading Soyabean",
           role: "Makurdi",
           desc:
             "Eli drives Apptopia’s strategic vision and manages investor relatio",
@@ -74,10 +74,10 @@ export default {
           return: " 15% ",
           price: "50000",
           img:
-            "https://firebasestorage.googleapis.com/v0/b/study-9f8db.appspot.com/o/farmer-first-commodity-trading-1.jpg?alt=media&token=5ae37d33-58c0-4512-8e6b-c52407d966e7"
+            "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577712586/soybean_oq6jn8.jpg"
         },
         {
-          name: "Commodity Trading",
+          name: "Commodity Trading Soyabean",
           role: "Makurdi",
           desc:
             "Eli drives Apptopia’s strategic vision and manages investor relations.",

@@ -87,14 +87,14 @@
               <span>Farmer First</span>
             </v-btn>
 
-            <v-btn
+            <!-- <v-btn
               text
               :to="$url('/term')"
               style="text-transform: capitalize;"
               flat
               class="ml-0"
               color="white"
-            >Terms and Conditions</v-btn>
+            >Terms and Conditions</v-btn> -->
             <!-- <v-btn
             text
             :to="$url('/privacy')"

@@ -25,9 +25,9 @@
         <v-flex xs12 md12 class=" pl-2">
         <NewProduct />
         <Product />
-        <v-divider />
+        <!-- <v-divider />
             <p class="text-center pt-2" style="font-size:150%; color:#c4c01a;">Coming Soon</p>
-        <ComingSoon />
+        <ComingSoon /> -->
 
          </v-flex>
            </v-layout>
@@ -64,10 +64,10 @@ export default {
           }
           ,
             {
-            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577718488/activityfarmerFirst_k9nbqq.jpg',
+            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1597609410/farmer%20first/farmer-first-activity-1_mq3kje.jpg',
           },
             {
-            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577718693/farmerfirstactivity2_e8rtsm.jpg',
+            src: 'https://res.cloudinary.com/ds4yhjjq8/image/upload/v1597610944/farmer%20first/soyabean-farmer-first_kzybf1.jpg',
           }
           
         ],

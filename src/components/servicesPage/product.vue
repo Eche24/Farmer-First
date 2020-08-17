@@ -55,7 +55,7 @@ export default {
     return {
       products: [
         {
-          name: "soyabean",
+          name: "soyabean Farming",
           role: "Makurdi",
           desc:
             "Eli drivesi was involved in several startups, including: GPush,",
@@ -63,19 +63,19 @@ export default {
           return: "25%",
           price: "50000",
           img:
-            "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577712586/soybean_oq6jn8.jpg"
+            "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1597607083/farmer%20first/soyabeanfarming_ysyyfj.jpg"
         },
-        {
-          name: "Rice",
-          role: "Makurdi",
-          desc:
-            "Eli drives Apptopia’s strategic vision and manages investor relatio",
-          duration: "6 Months",
-          return: " 25% ",
-          price: "50000",
-          img:
-            "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577712762/rice_eso2vk.jpg"
-        },
+        // {
+        //   name: "Rice",
+        //   role: "Makurdi",
+        //   desc:
+        //     "Eli drives Apptopia’s strategic vision and manages investor relatio",
+        //   duration: "6 Months",
+        //   return: " 25% ",
+        //   price: "50000",
+        //   img:
+        //     "https://res.cloudinary.com/ds4yhjjq8/image/upload/v1577712762/rice_eso2vk.jpg"
+        // },
         // {
         //   name: "Sesame",
         //   role: "Doma",

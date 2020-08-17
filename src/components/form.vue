@@ -73,7 +73,8 @@ export default {
         const info = {
           name: this.name,
           email: this.email,
-          message: this.message
+          message: this.message,
+          date: new Date()
         };
 
         db.collection("info")
