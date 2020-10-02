@@ -1,7 +1,4 @@
 <template>
-  <!-- <v-container fluid class="">
-        <v-layout wrap align-center justify-center row fill-height>
-  <v-flex xs12 >-->
   <v-carousel hide-delimiters cycle :show-arrows="false">
     <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src">
       <v-row class="fill-height overlay hidden-xs-only" align="center" justify="center">
