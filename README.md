@@ -1,2 +1,2 @@
 # Farmer First
-### Farmer first website build using gridsome 
+### Farmer first website build using Gridsome, Vuejs, Vuetify 
